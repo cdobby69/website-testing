@@ -1,0 +1,82 @@
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 32px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+    <center>
+        <p><br></p>
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <td style="text-align: center;"><p><div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><a href="https://hi.com">John Doe</a></div>
+  </div>
+</div></p></td>
+<td style="text-align: center;"><p>hi</p></td>
+                    <td style="text-align: center;"><div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+</div></td>
+                    <td style="text-align: center;"><div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+</div></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><br></td>
+                    <td style="text-align: center;"><br></td>
+                    <td style="text-align: center;"><br></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><br></td>
+                    <td style="text-align: center;"><br></td>
+                    <td style="text-align: center;"><br></td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
