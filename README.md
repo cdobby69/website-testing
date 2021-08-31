@@ -2,3 +2,10 @@
 testing
 
 game thubnail size: 499 × 498
+
+
+
+##Links
+
+###Loading
+[https://cdobby69.github.io/website-testing/loading.html](url)
