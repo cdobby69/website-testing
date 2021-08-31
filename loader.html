@@ -15,13 +15,19 @@
   from{ opacity:0 } 
   to{ opacity:1 }
 }
+
+@-webkit-keyframes loadanim {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
       
       .loadanim {
   position: relative;
   -webkit-animation-name: loadanim;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 10s;
   animation-name: loadanim;
-  animation-duration: 5s
+  animation-duration: 10s
 }
       
 #content {
