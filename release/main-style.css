@@ -51,6 +51,10 @@ body {
   overflow: hidden;
 }
 
+.open-text {
+ color:#ff8000;
+ }
+
 .btn {
   color: var(--nav-text-color);
   font-weight: bold;
