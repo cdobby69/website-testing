@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  background-image: linear-gradient(to bottom right, #1a1a1a 0% 65%, #1a1a1a 95% 100%);
+  background-image: linear-gradient(to bottom right, #333333 0% 65%, #333333 95% 100%);
   width: var(--screen-width);
   height: var(--screen-height);
   display: grid;
@@ -438,7 +438,7 @@ transition: 1s;
                 align-items: center;
                 width: 100%;
                 height: 100%;
-                backround-color: #1a1a1a;
+                backround-color: #333333;
             }
 
             #loader-wrapper {
