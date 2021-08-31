@@ -10,14 +10,14 @@
   height: 100vh;
   background-color: #eee;
 }
-.content {
+#content {
   display: flex;
   justify-content: center;
   align-items: center;
   width:100%;
   height:100%;
 }
-.loader-wrapper {
+#loader-wrapper {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -65,11 +65,11 @@
     
   </head>
   <body>
-    <div class="content">
+    <div id="content">
       <img src="https://picsum.photos/300/300/?random" />
     </div>
 
-    <div class="loader-wrapper">
+    <div id="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
       <br/>
       <br/>
@@ -77,9 +77,16 @@
     </div>
 
     <script>
-        $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
-        });
+        var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader-wrapper").style.display = "none";
+  document.getElementById("content").style.display = "block";
+}
     </script>
   </body>
 </html>
