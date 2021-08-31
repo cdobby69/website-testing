@@ -8,6 +8,8 @@
 }
 
 body {
+ background-color:#333333;
+ 
   --screen-width: 100vw;
   --screen-height: 100vh;
   
