@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  background-image: linear-gradient(to bottom right, #ff8000 0% 65%, #ff8000 95% 100%);
+  background-image: linear-gradient(to bottom right, #1a1a1a 0% 65%, #1a1a1a 95% 100%);
   width: var(--screen-width);
   height: var(--screen-height);
   display: grid;
